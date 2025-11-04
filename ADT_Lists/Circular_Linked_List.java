@@ -1,6 +1,6 @@
-package Lists;
+package ADT_Lists;
 
-import Nodes.*;
+import ADT_Nodes.*;
 
 public class Circular_Linked_List<T extends Comparable<T>>
     extends Linked_List<T> {

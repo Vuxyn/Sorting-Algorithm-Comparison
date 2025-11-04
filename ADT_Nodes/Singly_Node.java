@@ -1,4 +1,4 @@
-package Nodes;
+package ADT_Nodes;
 
 public class Singly_Node<T> extends Node<T>{
 	private Node<T> next;

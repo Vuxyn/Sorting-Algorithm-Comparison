@@ -1,4 +1,4 @@
-package Nodes;
+package ADT_Nodes;
 
 public abstract class Node<T>{ // Generic data, using getters & setters
 	protected T data;

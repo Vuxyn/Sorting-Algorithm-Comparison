@@ -1,5 +1,5 @@
-package Lists;
-import Nodes.*;
+package ADT_Lists;
+import ADT_Nodes.*;
 
 public class Singly_Linked_List<T extends Comparable<T>> extends Linked_List<T>{
 	public Singly_Linked_List(){

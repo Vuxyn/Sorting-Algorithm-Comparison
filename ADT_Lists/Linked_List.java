@@ -1,6 +1,6 @@
-package Lists;
+package ADT_Lists;
 
-import Nodes.*;
+import ADT_Nodes.*;
 
 public abstract class Linked_List<T extends Comparable<T>> {
 
@@ -96,6 +96,39 @@ public abstract class Linked_List<T extends Comparable<T>> {
                 recompute_tail();
                 break;
         }
+    }
+    private void bubble_sort() {
+        if (this.head == null || this.size <= 1) {
+            return; // Already sorted or empty
+        }
+        
+        boolean swapped;
+        Node<T> current;
+        Node<T> last = null; // Marks the end of sorted portion
+        
+        do {
+            swapped = false;
+            current = this.head;
+            
+            while (current.get_next() != last) {
+                Node<T> next = current.get_next();
+                
+                // Compare current with next node
+                if (current.get_data().compareTo(next.get_data()) > 0) {
+                    // Swap data between nodes
+                    T temp = current.get_data();
+                    current.set_data(next.get_data());
+                    next.set_data(temp);
+                    swapped = true;
+                }
+                
+                current = current.get_next();
+            }
+            
+            // After each pass, the largest element is at the end
+            last = current;
+            
+        } while (swapped);
     }
 
     private Node<T> merge_sort(Node<T> node_head) {
