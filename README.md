@@ -3,50 +3,8 @@ the project's goal is to analyze and compare the execution time efficiency betwe
 
 Structure:
 📦Sorting-Algorithm-Comparison
- ┣ 📂.git
- ┃ ┣ 📂hooks
- ┃ ┃ ┣ 📜applypatch-msg.sample
- ┃ ┃ ┣ 📜commit-msg.sample
- ┃ ┃ ┣ 📜fsmonitor-watchman.sample
- ┃ ┃ ┣ 📜post-update.sample
- ┃ ┃ ┣ 📜pre-applypatch.sample
- ┃ ┃ ┣ 📜pre-commit.sample
- ┃ ┃ ┣ 📜pre-merge-commit.sample
- ┃ ┃ ┣ 📜pre-push.sample
- ┃ ┃ ┣ 📜pre-rebase.sample
- ┃ ┃ ┣ 📜pre-receive.sample
- ┃ ┃ ┣ 📜prepare-commit-msg.sample
- ┃ ┃ ┣ 📜push-to-checkout.sample
- ┃ ┃ ┣ 📜sendemail-validate.sample
- ┃ ┃ ┗ 📜update.sample
- ┃ ┣ 📂info
- ┃ ┃ ┗ 📜exclude
- ┃ ┣ 📂logs
- ┃ ┃ ┣ 📂refs
- ┃ ┃ ┃ ┣ 📂heads
- ┃ ┃ ┃ ┃ ┗ 📜main
- ┃ ┃ ┃ ┗ 📂remotes
- ┃ ┃ ┃ ┃ ┗ 📂origin
- ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
- ┃ ┃ ┗ 📜HEAD
- ┃ ┣ 📂objects
- ┃ ┃ ┣ 📂info
- ┃ ┃ ┗ 📂pack
- ┃ ┃ ┃ ┣ 📜pack-964de54875eb1182ed391575cf0d0f88d932c833.idx
- ┃ ┃ ┃ ┣ 📜pack-964de54875eb1182ed391575cf0d0f88d932c833.pack
- ┃ ┃ ┃ ┗ 📜pack-964de54875eb1182ed391575cf0d0f88d932c833.rev
- ┃ ┣ 📂refs
- ┃ ┃ ┣ 📂heads
- ┃ ┃ ┃ ┗ 📜main
- ┃ ┃ ┣ 📂remotes
- ┃ ┃ ┃ ┗ 📂origin
- ┃ ┃ ┃ ┃ ┗ 📜HEAD
- ┃ ┃ ┗ 📂tags
- ┃ ┣ 📜config
- ┃ ┣ 📜description
- ┃ ┣ 📜HEAD
- ┃ ┣ 📜index
- ┃ ┗ 📜packed-refs
+ ┣ 
+ ┃ 
  ┣ 📂ADT_Lists
  ┃ ┣ 📜Circular_Linked_List.java
  ┃ ┣ 📜Doubly_Linked_List.java
