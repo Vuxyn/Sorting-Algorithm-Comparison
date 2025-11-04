@@ -21,6 +21,7 @@ Structure:
 ```
 
 Result:
+
 <img width="648" height="372" alt="image" src="https://github.com/user-attachments/assets/5c5cbdc0-4c9c-44f7-99f9-7d87ed7ed2f6" />
 
 Graph:
