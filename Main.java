@@ -1,4 +1,5 @@
 import ADT_Lists.*;
+import ADT_Nodes.*;
 import java.util.Random;
 
 public class Main {
@@ -58,7 +59,6 @@ public class Main {
                 System.out.printf("%-20s\n", "N/A");
             }
             
-            // Verify both are sorted correctly
             if (!bubbleSorted || !mergeSorted) {
                 System.err.println("ERROR: Sorting failed for size " + size);
             }
@@ -93,13 +93,15 @@ public class Main {
      * @param maxItems Maximum items to display
      */
     public static void printList(Singly_Linked_List<Integer> list, int maxItems) {
-        final int[] count = {0};
-        list.for_each(item -> {
-            if (count[0] < maxItems) {
-                System.out.print(item + " ");
-                count[0]++;
-            }
-        });
+        Node<Integer> current = list.get_head();
+        int count = 0;
+        
+        while (current != null && count < maxItems) {
+            System.out.print(current.get_data() + " ");
+            current = current.get_next();
+            count++;
+        }
+        
         if (list.get_size() > maxItems) {
             System.out.print("... (+" + (list.get_size() - maxItems) + " more)");
         }
