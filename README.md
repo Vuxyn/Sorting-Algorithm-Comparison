@@ -126,4 +126,4 @@ Data Size        Bubble Sort (ms)        Merge Sort (ms)          Speedup
 
 ## License
 
-This project is for educational purposes as part of the Algorithm and Data Structure course.
+This project is for educational purposes as part of the Algorithm and Data Structure course. Licensed under the [MIT License](https://github.com/Vuxyn/Sorting-Algorithm-Comparison/blob/main/LICENSE).
