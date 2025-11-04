@@ -3,7 +3,7 @@ the project's goal is to analyze and compare the execution time efficiency betwe
 
 Structure:
 
-'''📦Sorting-Algorithm-Comparison
+📦Sorting-Algorithm-Comparison
  ┣ 
  ┃ 
  ┣ 📂ADT_Lists
@@ -17,7 +17,7 @@ Structure:
  ┃ ┗ 📜Singly_Node.java
  ┣ 📜.gitignore
  ┣ 📜Main.java
- ┗ 📜README.md'''
+ ┗ 📜README.md
 
 Result:
 
