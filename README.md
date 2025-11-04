@@ -27,8 +27,7 @@ This project analyzes and compares the execution time efficiency between **Bubbl
  ┃ ┗ 📜Singly_Node.java
  ┣ 📜Chart.ipynb
  ┣ 📜Main.java
- ┣ 📜README.md
- ┗ 📜TODO.md
+ ┗ 📜README.md
 ```
 
 ## Prerequisites
