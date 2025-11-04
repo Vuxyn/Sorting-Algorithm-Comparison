@@ -2,7 +2,7 @@
 the project's goal is to analyze and compare the execution time efficiency between Bubble Sort and Merge Sort using various dataset sizes.
 
 Structure:
-'''
+
 📦Sorting-Algorithm-Comparison
  ┣ 
  ┃ 
@@ -18,7 +18,7 @@ Structure:
  ┣ 📜.gitignore
  ┣ 📜Main.java
  ┗ 📜README.md
-'''
+
 Result:
 
 
